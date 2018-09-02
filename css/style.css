@@ -186,8 +186,6 @@ input{
 }
 @media (max-width: 600px) {
   .container_flex{
-    flex-direction: column;
-    width: 85%;
     margin-left: auto;
   }
 }
@@ -197,9 +195,13 @@ input{
   text-align: center;
 }
 .responsive-img{
-  width: 100%;
+  width: 100px;
   height: auto;
   max-width: 100%;
+}
+.product__img{
+  margin-left: -60px;
+  margin-right: 20px;
 }
 .modal-inset {
   position: relative;
