@@ -13,9 +13,14 @@ $(document).on('ready', function(){
       $modal.removeClass('state-appear').addClass('state-leave');
     });
 
-    $('.open').on('click', function(){
-      $overlay.addClass('state-show');
-      $modal.removeClass('state-leave').addClass('state-appear');
+    jQuery(window).on('load', function(){
+      setTimeout(function() {
+        $overlay.addClass('state-show');
+        $modal.removeClass('state-leave').addClass('state-appear');
+       }, 1000); 
+      
     });
 
   });
+
+ 
