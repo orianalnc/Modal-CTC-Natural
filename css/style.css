@@ -99,8 +99,9 @@ html, body {
   
 }
 .container{
-  width: 80% !important;
-  margin-left: 12vw !important;
+  width: 50% !important;
+  margin-left: auto;
+  margin-right: auto;
 }
 input{
   border: 1px solid #d1d0d0;
@@ -188,6 +189,13 @@ input{
   .container_flex{
     margin-left: auto;
   }
+  .container{
+    width: 90%;
+  }
+  .modal-body h3 {
+    width: 100% !important;
+
+  }
 }
 .modal {
   display: block;
@@ -269,7 +277,6 @@ input{
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  
 }
 .modal-body p {
   padding-bottom: 20px;
