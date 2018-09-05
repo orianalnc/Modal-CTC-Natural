@@ -17,10 +17,9 @@ $(document).on('ready', function(){
       setTimeout(function() {
         $overlay.addClass('state-show');
         $modal.removeClass('state-leave').addClass('state-appear');
-       }, 1000); 
-      
+      }, 1000); 
     });
-
-  });
+   
 
  
+});
