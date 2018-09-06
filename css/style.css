@@ -185,36 +185,26 @@ input{
   }
   
 }
-@media (max-width: 600px) {
-  .container_flex{
-    margin-left: auto;
-  }
-  .container{
-    width: 90%;
-  }
-  .modal-body h3 {
-    width: 100% !important;
 
-  }
-}
 .modal {
   display: block;
   vertical-align: middle;
   text-align: center;
 }
 .responsive-img{
-  width: 200px;
+  width: 500px;
   height: auto;
   max-width: 100%;
 }
 .product__img{
-  margin-left: -90px;
+  /* margin-left: -90px; */
   margin-right: 20px;
 }
 .modal-inset {
   position: relative;
-  padding: 60px;
+  padding: 40px;
   background-color: white;
+  width: 1020px;
   min-width: 320px;
   min-height: 126px;
   margin: auto;
@@ -411,4 +401,42 @@ input{
     -webkit-transform: translateY(35px) scale(0.97, 0.97);
     transform: translateY(35px) scale(0.97, 0.97);
   }
+}
+.modal__p{
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 600px) {
+  .container_flex{
+    margin-left: auto;
+  }
+  .container{
+    width: 90%;
+  }
+  .modal-body h3 {
+    width: 100% !important;
+
+  }
+  .button__a{
+    width: 100%;
+  }
+  .modal-inset{
+    padding: 20px !important;
+    width: 100%;
+  }
+  .modal__p{
+    width: 100%;
+    font-size: 1em;
+    line-height: 1.3em;
+  }
+  .modal-body p {
+   padding-bottom: 0px;
+}
+.modal-inset .close{
+  padding: 0;
+  right: 5px;
+}
+
 }
